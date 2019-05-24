@@ -1,6 +1,6 @@
 {
   "name": "prefers-reduced-transparency",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Get a user's transparency preference using CSS @media prefers-reduced-transparency",
   "main": "dist/index.js",
   "module": "dist/index.js",
