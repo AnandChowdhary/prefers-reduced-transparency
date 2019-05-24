@@ -1,13 +1,13 @@
-import prefersReducedMotion from "./index";
+import prefersReducedTransparency from "./index";
 
 test("should be a string", () => {
-  expect(typeof prefersReducedMotion()).toBe("string");
+  expect(typeof prefersReducedTransparency()).toBe("string");
 });
 
-test("should be reduce or no-preference", () => {
-  expect(["reduce", "no-preference"].includes(prefersReducedMotion())).toBeTruthy();
+test("should be high, low or no-preference", () => {
+  expect(["high", "low", "no-preference"].includes(prefersReducedTransparency())).toBeTruthy();
 });
 
-test("should be reduce, no-preference, or unknown", () => {
-  expect(["reduce", "no-preference", "unknown"].includes(prefersReducedMotion())).toBeTruthy();
+test("should be high, no-preference, or unknown", () => {
+  expect(["high", "low", "no-preference", "unknown"].includes(prefersReducedTransparency())).toBeTruthy();
 });

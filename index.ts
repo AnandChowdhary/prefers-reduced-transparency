@@ -11,12 +11,12 @@ export default (fallbackToNone: Boolean = true) => {
     html {
         content: "";
     }
-    @media (prefers-reduced-motion: reduce) {
+    @media (prefers-reduced-transparency: reduce) {
       html {
         content: "reduce";
       }
     }
-    @media (prefers-reduced-motion: no-preference) {
+    @media (prefers-reduced-transparency: no-preference) {
       html {
         content: "no-preference";
       }

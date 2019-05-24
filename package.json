@@ -1,14 +1,14 @@
 {
-  "name": "prefers-reduced-motion",
+  "name": "prefers-reduced-transparency",
   "version": "1.0.0",
-  "description": "Get a user's motion preference using CSS @media prefers-reduced-motion",
+  "description": "Get a user's transparency preference using CSS @media prefers-reduced-transparency",
   "main": "dist/index.js",
   "module": "dist/index.js",
   "types": "dist/index.d.ts",
   "files": [
     "dist"
   ],
-  "repository": "git@github.com:AnandChowdhary/prefers-reduced-motion.git",
+  "repository": "git@github.com:AnandChowdhary/prefers-reduced-transparency.git",
   "author": "Anand Chowdhary <mail@anandchowdhary.com>",
   "license": "MIT",
   "scripts": {
